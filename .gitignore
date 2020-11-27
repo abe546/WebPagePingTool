@@ -31,4 +31,6 @@ hs_err_pid*
 .idea
 my-app.iml
 
+src/it/resources/*
+
  
