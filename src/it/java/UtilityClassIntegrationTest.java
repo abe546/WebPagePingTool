@@ -20,7 +20,7 @@ public class UtilityClassIntegrationTest {
         fileName += Instant.now().truncatedTo(ChronoUnit.SECONDS).toString().replaceAll(":", "-");
         UtilityClass getWebPageAndSaveToFile = new UtilityClass();
 
-        getWebPageAndSaveToFile.getWebPageAndSaveToFile(website, fileName);
+        getWebPageAndSaveToFile.getWebPageAndSaveToFile(website, fileName, false);
 
         File file = new File(fileName);
 
